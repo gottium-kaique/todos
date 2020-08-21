@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: "Roboto";
+}
+
+button, input, li {
+  padding: 12px 20px;
+  font-weight: bold;
+}
+
+li {
+  border-radius: 8px;
+}
+
+button {
+  background: #00ccaa;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+a {
+  margin-left: 10px;
+  user-select: none;
+  cursor: pointer;
+}
+
+input {
+  background: none;
+  border-bottom: 1px solid #00ccaa;
+  color: white;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input::placeholder {
+  color: white;
+}
+
+body {
+  background-color: #334;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.app {
+  max-width: 700px;
+  margin: 80px auto;
+  background: #223;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.30);
+  padding: 30px;
+  color: #00ccaa;
+  border-radius: 24px;
+}
+
+::selection {
+  background: #00ccaa;
+  color: #112;
+}
